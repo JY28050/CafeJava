@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Java</title>
+    <link rel="icon" href="images/latte.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Nav -->
+      <nav class="navbar">
+        <div class="logo">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <div class="logo-text">
+            <span>Cafe</span>
+            <span>Java</span>
+          </div>
+        </div>
+        <div class="navigation">
+          <a href="#landing">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Specials</a>
+          <a href="#data">Pledge</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#reservations">Reservation</a>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </nav>
+      <!-- End of Nav -->
+
+      <!-- Landing -->
+      <section class="landing" id="landing">
+        <div class="banner">
+          <h3 class="main-heading">Welcome To Cafe Java</h3>
+          <h1>Global Flavours, Local Ingredients!</h1>
+          <button type="button" class="banner-btn banner-btn-1">
+            Order Now
+          </button>
+          <button type="button" class="banner-btn banner-btn-2">
+            View Menu
+          </button>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/image1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/image2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/image3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="landing-contact">
+          <div class="details">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <span>Open Daily</span>
+              <span>7:00am - 7:00pm</span>
+            </div>
+          </div>
+          <div class="details">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span>Vienna, Virginia</span>
+              <span>123 Main St. Vienna, VA 22027</span>
+            </div>
+          </div>
+          <div class="details">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <span>(123)-456-7890</span>
+              <span>Call ahead and pickup when ready</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Landing -->
+
+      <!-- About -->
+      <section class="about" id="about">
+        <div>
+          <i class="fa-solid fa-mobile"></i>
+          <h1>Easy to Order</h1>
+          <p>
+            We are partnered with several dedicated delivery services. Simply
+            give us a call if you would like to order a delivery or schedule a
+            pickup.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-leaf"></i>
+          <h1>Eco-Friendly</h1>
+          <p>
+            We strive to minimze our impact on the environment, as such- our
+            bags, napkins, and cups are made from 100% recycled paper.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-mug-hot"></i>
+          <h1>Quality Local Ingredients</h1>
+          <p>
+            We source all of our ingredients from local farms in the area.
+            Everything is organic, and made from scratch on a daily basis.
+          </p>
+        </div>
+      </section>
+      <!-- End of About -->
+
+      <!-- Menu -->
+      <section class="menu" id="menu">
+        <div class="menu-left">
+          <h3 class="main-heading">Weekly Special</h3>
+          <h1>Lavender Vanilla Latte</h1>
+          <p>
+            We start off with a plant-based almond milk, and mix it in with our
+            signature Forte Espresso. Then we swirl it all together with a
+            subtle hint of vanilla and rich lavender. Available hot or iced.
+          </p>
+          <button type="button" class="menu-btn">
+            View Specials<menu></menu>
+          </button>
+        </div>
+
+        <div class="menu-right">
+          <div class="menu-right-images">
+            <div class="menu-img-wrapper">
+              <img src="images/image4.jpg" />
+            </div>
+            <div class="menu-img-wrapper">
+              <img src="images/image5.jpg" />
+            </div>
+
+            <div class="menu-img-wrapper">
+              <img src="images/image6.jpg" />
+            </div>
+
+            <div class="menu-img-wrapper">
+              <img src="images/image7.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Menu -->
+
+      <!-- Data Section -->
+      <section class="data" id="data">
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="500">0</span>
+          <span class="info">Cups Recycled Weekly</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="450">0</span>
+          <span class="info">Cups Donated Weekly</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-recycle"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="400">0</span>
+          <span class="info">Paper Straws Recycled</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-recycle"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="250">0</span>
+          <span class="info">Re-Used Packaging</span>
+        </div>
+      </section>
+      <!-- End of Data Section -->
+
+      <!-- Reviews -->
+      <section class="customers" id="reviews">
+        <div class="customers-banner">
+          <h3 class="main-heading">Reviews</h3>
+          <h1>What Our Customers Say...</h1>
+        </div>
+        <div class="clients">
+          <div class="client">
+            <p>
+              Since I'm currently working remote, I spend a good deal of my
+              mornings here. The servers will periodically fill up cups for
+              regulars. It can get pricey, but the taste is worth it!
+            </p>
+            <div>
+              <img src="images/client1.jpg" />
+              <span>Matthew C.</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+              I'm a sucker for these small artsy cafes- suits my personality
+              very well. Not to mention the coffee here is to die for. It's easy
+              to just spend an afternoon here with friends, or by yourself
+              getting work done. The atmosphere is very laid back and inviting.
+            </p>
+            <div>
+              <img src="images/client2.jpg" />
+              <span>Emily M.</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+              My friend actually worked here while she was in college. We used
+              to come by in the mornings to hang out with her. Even after she
+              left, I would still return routinely since I love it here so much!
+            </p>
+            <div>
+              <img src="images/client3.jpg" />
+              <span>Donna W.</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+              This coffee shop was my spot to brainstorm for my start-up. Quiet
+              enough for work while enjoying the latest latte and pastries.
+            </p>
+            <div>
+              <img src="images/client4.jpg" />
+              <span>Kevin C.</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+              My owner usually stops by after our morning walk. They have clean
+              and comfy floors for me to plop down and rest. Everyone I meet
+              gives me belly-rubs and treats! I just love coming here daily.
+            </p>
+            <div>
+              <img src="images/client5.jpg" />
+              <span>Kobe</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Reviews -->
+
+      <!-- Reservations -->
+      <section class="contact" id="reservations">
+        <div class="contact-left"></div>
+        <div class="contact-right">
+          <form>
+            <h1>Reserve A Table</h1>
+            <div class="input-group">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="input-group">
+              <input type="email" placeholder="Email Address" />
+              <input type="text" placeholder="Phone" />
+            </div>
+            <div class="input-group">
+              <textarea placeholder="Message"></textarea>
+              <button type="button" class="contact-btn">Book Now!</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End of Reservations -->
+
+      <!-- Footer -->
+      <footer>
+        <p class="copyright">&copy; Cafe Java 2023. All Rights Reserved.</p>
+      </footer>
+    </div>
+    <!-- End of Container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
