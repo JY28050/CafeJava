@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAFE JAVA- Artisan Roaster and Specialty Coffee</title>
+    <link rel="icon" href="images/icons8-cafe-96.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Nav -->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/icons8-cafe-64.png" alt="" />
+          <div class="logo-text">
+            <span>CAFE</span>
+            <span>JAVA</span>
+          </div>
+        </div>
+        <div class="navigation">
+          <a href="#Home">Home</a>
+          <a href="#Order">Order</a>
+          <a href="#Menu">Menu</a>
+          <a href="#Pledge">Pledge</a>
+          <a href="#Press">Press </a>
+          <a href="#Contact"> Reservation </a>
+        </div>
+      </nav>
+      <!-- End of Nav -->
+
+      <!-- Landing -->
+      <section class="landing" id="Home">
+        <div class="banner">
+          <h3 class="main-heading">Welcome To Cafe Java</h3>
+          <h1>Where Coffee Meets Community!</h1>
+          <p>
+            Located in the heart of Vienna, we are a specialty cafe and artisan
+            roastery. Our delicious coffee is locally sourced, fair trade, and
+            organic. You will fall in love with it, guaranteed!
+          </p>
+          <button type="button" class="banner-btn banner-btn-1">
+            Order Now
+          </button>
+          <button type="button" class="banner-btn banner-btn-2">
+            View Menu
+          </button>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/image1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/image2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/image3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="landing-contact">
+          <div class="details">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <span>571-123-4567</span>
+              <span
+                >Give us a call to place an order or inquire about table
+                availability.</span
+              >
+            </div>
+          </div>
+
+          <div class="details">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span>1234 Main Street</span>
+              <span>Vienna, Virginia 22180</span>
+            </div>
+          </div>
+
+          <div class="details">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <span>Open Monday - Sunday</span>
+              <span>7AM - 6PM daily</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Landing -->
+
+      <!-- About -->
+      <section class="about" id="Order">
+        <div>
+          <i class="fa-solid fa-mobile"></i>
+          <h1>Easy to Order</h1>
+          <p>
+            You can place orders online or through the phone. Orders can be
+            reserved in-house or delivered.
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-truck"></i>
+          <h1>Fast Delivery</h1>
+          <p>
+            We are currently partnered with Ubereats and Doordash for all your
+            delivery needs.
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-mug-hot"></i>
+          <h1>Made Fresh Daily</h1>
+          <p>
+            Our coffee and pastries are always made fresh daily in-house.
+            Dietary accommodations are available.
+          </p>
+        </div>
+      </section>
+      <!-- End About -->
+
+      <!-- Menu -->
+      <section class="menu" id="Menu">
+        <div class="menu-left">
+          <h3 class="main-heading">Menu Special</h3>
+          <h1>Lavender Vanilla Latte</h1>
+          <p>
+            One of our most-requested signatures. The Lavender Vanilla Latte is
+            made with espresso, steamed oat milk, and a special blend of vanilla
+            and lavender syrup. The result is a rich, creamy blend topped with a
+            irresistable floral hint.
+          </p>
+          <button class="menu-btn" type="button">View Menu</button>
+        </div>
+
+        <div class="menu-right">
+          <div class="menu-right-images">
+            <div class="menu-img-wrapper">
+              <img src="images/image4.jpg" alt="" />
+            </div>
+            <div class="menu-img-wrapper">
+              <img src="images/image5.jpg" alt="" />
+            </div>
+            <div class="menu-img-wrapper">
+              <img src="images/image6.jpg" alt="" />
+            </div>
+            <div class="menu-img-wrapper">
+              <img src="images/image7.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Menu -->
+
+      <!-- Pledge Data -->
+      <section class="data" id="Pledge">
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-recycle"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="455">0</span>
+          <span class="info">Cups Recycled</span>
+        </div>
+
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-box"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="430">0</span>
+          <span class="info">Packages Recycled</span>
+        </div>
+
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="300">0</span>
+          <span class="info">Cups Donated</span>
+        </div>
+
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-dumpster"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="360">0</span>
+          <span class="info">Waste Reduced</span>
+        </div>
+      </section>
+      <!-- End Pledge Data-->
+
+      <!-- Customers / Press -->
+      <section class="customers" id="Press">
+        <div class="customers-banner">
+          <h3 class="main-heading">Latest Press</h3>
+          <h1>Customer Testimonials</h1>
+        </div>
+
+        <div class="clients">
+          <div class="client">
+            <p>
+              Stopping by and getting a latte here has become my morning ritual
+              ever since I first tasted their coffee. Not only is the taste
+              superb, it also keeps me energized throughout my day.
+            </p>
+            <div>
+              <img src="images/client1.jpg" />
+              <span>Sam T.</span>
+            </div>
+          </div>
+
+          <div class="client">
+            <p>
+              I usually stop by on the way to work and grab a coffee and
+              breakfast to-go. I come here so frequently that the servers greet
+              me by name and already have my order ready! It really is a great
+              community atmosphere.
+            </p>
+            <div>
+              <img src="images/client2.jpg" />
+              <span>Ella S.</span>
+            </div>
+          </div>
+
+          <div class="client">
+            <p>
+              Since I work from my laptop, I usually spend hours at a time here.
+              The servers will always give me complimentary refills. The
+              environment is super laid back and inviting.
+            </p>
+            <div>
+              <img src="images/client3.jpg" />
+              <span>Maddy W.</span>
+            </div>
+          </div>
+
+          <div class="client">
+            <p>
+              I consider myself a coffee connoisseur and let me tell you, this
+              place has some of the best. I am always looking forward to trying
+              their new menu specials.
+            </p>
+            <div>
+              <img src="images/client4.jpg" />
+              <span>Brandon B.</span>
+            </div>
+          </div>
+
+          <div class="client">
+            <p>
+              My owner takes me here after our morning jog. The patrons always
+              greet me with free treats and belly rubs. The entire establishment
+              is always super clean. I look forward to coming everyday!
+            </p>
+            <div>
+              <img src="images/client5.jpg" />
+              <span>Haribo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Customers / Press -->
+
+      <!-- Contact -->
+      <section class="contact" id="Contact">
+        <div class="contact-left"></div>
+
+        <div class="contact-right">
+          <form>
+            <h1>Reserve Table</h1>
+            <div class="input-group">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="input-group">
+              <input type="email" placeholder="Email Address" />
+              <input type="text" placeholder="Phone Number" />
+            </div>
+            <div class="input-group">
+              <textarea placeholder="Message"></textarea>
+              <button type="button" class="contact-btn">Book Now</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- End Contact -->
+
+      <!-- Footer -->
+      <footer>
+        <p class="copyright">&copy; Cafe Java. All Rights Reserved</p>
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <!-- End Container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
